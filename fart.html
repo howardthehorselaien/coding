@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        #jumpscare-image {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #jumpscare-image img {
+            width: 95%;
+            height: 95%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body> 
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+
+        <li><a href="testimonials.html">Testimonials</a></li>
+       
+    </ul> 
+
+    <h1>Click the link... if you dare!</h1>
+    <a href="#" id="scare-link" style="font-size: 24px;">Don't click here!</a>
+
+    <!-- Jumpscare Image (Initially hidden) -->
+    <div id="jumpscare-image">
+        <img src="df8fc1ab-ace5-482f-8431-f4a878bbb721.webp" alt="Jumpscare">
+    </div>
+
+    <!-- Jumpscare Sound -->
+    <audio id="jumpscare-sound" src="howard-the-alien-original-video-made-with-Voicemod.mp3"></audio>
+
+    <script>
+        const scareLink = document.getElementById('scare-link');
+        const scareImage = document.getElementById('jumpscare-image');
+        const scareSound = document.getElementById('jumpscare-sound');
+
+        scareLink.addEventListener('click', function (event) {
+            event.preventDefault();  // Prevent link default action
+
+            // Show the image and play the sound
+            scareImage.style.display = 'flex';
+            scareSound.play(                          );
+
+            // Hide the jumpscare after 3 seconds
+            setTimeout(() => {
+                scareImage.style.display = 'none';
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>alien party rentals</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+<link rel="stylesheet" href="style.css">
+
+
+    <body style="background-color:beige">
+        <h1 style="color: rgb(46, 203, 46);">Alien party rental</h1>
+        <p></p>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>          </h1>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href=fart.html>fart room</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="https://www.youtube.com/watch?v=TRc85qoNo6w">ever seen an alien dance well heres howard</a>
+
+    
+     
+   
+<p> <div id="box1"></div>
+    <div id="box2"></div >
+</p>
+
+
+<img src="" height="600">
+<h1 style="color:rgb(62, 180, 103);"></h1>
+
+<p style="color:rgb(40, 173, 93);">   <h1>  </h1>    
+
+</html>
